@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>linkdin clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://static.licdn.com/sc/h/akt4ae504epesldzj74dzred8" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+     <header>
+        <div class="container">
+            <div class="logo">
+                <img src="data:image/jpeg;base64,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" alt="">
+            </div>
+            <nav>
+                <a href="/">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+     </header>
+     <main>
+        <div class="hero">
+            <div class="hero-banner">
+                <img src="./assets/background.png" alt="">
+            </div>
+            <div class="hero-avatar">
+                <img src="assets/image.jpg" alt="">
+            </div>
+        </div>
+        <div class="intro">
+            <div class="intro-name">
+                Vennu Ashritha
+            </div>
+            <div class="intro-desc">
+                <p>machine learning engineer</p>
+                <p>learner-to be a full stack developer | Html | Css| a mini project</p>
+            </div>
+        </div>
+        <section class="about" id="about">
+            <h2>About</h2>
+            <p class="About-desc">
+                I am a artificial intelligence machine learner studying 2nd year and now i am still going with the college academics. I have to learn extra languages too and as of now i just completed my basic frontend-html and css. Now creating this linkdin profile is a mini project which helps me to understand like how much knowledge i have gained on this. 
+            </p>
+        </section>
+        <section class="experience" id="experience">
+            <h2>Experience</h2>
+            <div class="exp-item">
+                <div class="exp-org-img">
+                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyJGP4TYGb7Ig8Qf8ZzlhLHTPy3MvO35dT0Q&s" alt=""> 
+                </div>
+                <div class="exp-details">
+                    <div class="role-name">To be a Software Engineer</div>
+                    <div class="role-org-name">Wheelseye</div>
+                    <div class="role-duration">Looking forward to work</div>
+                    <div class="role-desc">
+                        <ul>
+                            <li>Lorem ipsum, dolor sit amet <strong>consectetur</strong> adipisicing elit. Fuga, aspernatur! Eos illo quos quo aliquam.</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, aspernatur! Eos illo quos quo aliquam.</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, aspernatur! Eos illo quos quo aliquam.</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, aspernatur! Eos illo quos quo aliquam.</li>
+                            
+                        </ul>
+                    </div>
+                </div>    
+            </div>
+            <div class="exp-item">
+                <div class="exp-org-img">
+                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyJGP4TYGb7Ig8Qf8ZzlhLHTPy3MvO35dT0Q&s" alt=""> 
+                </div>
+                <div class="exp-details">
+                    <div class="role-name">To be a Software Engineer</div>
+                    <div class="role-org-name">Wheelseye</div>
+                    <div class="role-duration">Looking forward to work</div>
+                    <div class="role-desc">
+                        <ul>
+                            <li>Lorem ipsum, dolor sit amet <strong>consectetur</strong> adipisicing elit. Fuga, aspernatur! Eos illo quos quo aliquam.</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, aspernatur! Eos illo quos quo aliquam.</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, aspernatur! Eos illo quos quo aliquam.</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, aspernatur! Eos illo quos quo aliquam.</li>
+                            
+                        </ul>
+                    </div>
+                </div>    
+            </div>
+            <div class="exp-item">
+                <div class="exp-org-img">
+                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyJGP4TYGb7Ig8Qf8ZzlhLHTPy3MvO35dT0Q&s" alt=""> 
+                </div>
+                <div class="exp-details">
+                    <div class="role-name">To be a Software Engineer</div>
+                    <div class="role-org-name">Wheelseye</div>
+                    <div class="role-duration">Looking forward to work</div>
+                    <div class="role-desc">
+                        <ul>
+                            <li>Lorem ipsum, dolor sit amet <strong>consectetur</strong> adipisicing elit. Fuga, aspernatur! Eos illo quos quo aliquam.</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, aspernatur! Eos illo quos quo aliquam.</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, aspernatur! Eos illo quos quo aliquam.</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, aspernatur! Eos illo quos quo aliquam.</li>
+                            
+                        </ul>
+                    </div>
+                </div>    
+            </div>
+        </section>
+        <section class="education" id="education">
+            <h2>Education</h2>
+            <div class="edu-item">
+                <div class="edu-org-img">
+                    <img src="https://cmrtc.ac.in/wp-content/uploads/2020/05/cmrtc_logo_header.jpg" alt="">
+                </div>
+                <div class="edu-details">
+                    <div class="edu-name"> AIML-artificial intelligence and mechine learning</div>
+                    <div class="edu-org-name">CMR Technical campus</div>
+                    <div class="edu-duration">Sept 2023- Sept 2027</div>
+                </div>
+            </div>
+            <div class="edu-item">
+                <div class="edu-org-img">
+                    <img src="https://content.jdmagicbox.com/comp/nalgonda/e3/9999p8682.8682.120711153823.j4e3/catalogue/gowthami-junior-college-sri-nagar-colony-nalgonda-junior-colleges-7SfSyvMIi3.jpg" alt="">
+                </div>
+                <div class="edu-details">
+                    <div class="edu-name"> MPC-Maths,Physics and Chemistry</div>
+                    <div class="edu-org-name">Gouthami Junior College</div>
+                    <div class="edu-duration">June 2021 - May 2023</div>
+                </div>
+            </div>
+            <div class="edu-item">
+                <div class="edu-org-img">
+                    <img src="https://play-lh.googleusercontent.com/zOa56U6Lf2XREvNcgfMd2xVPL9moMDHI7qWMYxeMk4iilRW0F7f69350n6S0V9jwtA=w600-h300-pc0xffffff-pd" alt="">
+                </div>
+                <div class="edu-details">
+                    <div class="edu-name">10th standard</div>
+                    <div class="edu-org-name">LFGHS</div>
+                    <div class="edu-duration">June 2019-June 2020</div>
+                </div>
+            </div>
+        </section>
+        <section class="contat" id="contact">
+            <h2>Contact</h2>
+            <div class="contact-details">
+                <a href="tel:+91-1234567890">📞 +91-1234567890</a>
+                <a href="mailto:237r1a66c3@cmrtc.ac.in">📩 237r1a66c3@cmrtc.ac.in</a>
+                <a href="https://github.com/ashrithavennu">🧑‍💻github.com/vennuashritha</a>
+            </div>
+        </section>
+     </main>
+     <footer>
+        <p>
+            Made by Ashritha
+        </p>
+     </footer>
+</body>
+</html>
